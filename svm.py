@@ -8,7 +8,7 @@ from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 
 #2 Importing the dataset
-train_csv = pd.read_csv('/Users/tonishkasingh/PycharmProjects/cs2105_assignment0/venv/train_100.csv')
+train_csv = pd.read_csv('train_100.csv')
 
 #3 Training
 x_train = train_csv.iloc[:,:-1]
@@ -19,7 +19,7 @@ grid.fit(x_train,y_train)
 
 print(grid.best_estimator_)
 
-test_data = pd.read_csv("/Users/tonishkasingh/PycharmProjects/cs2105_assignment0/venv/test_100.csv")
+test_data = pd.read_csv("test_100.csv")
 x = test_csv.iloc[:,:-1]
 y_test = test_csv.iloc[:, -1]
 grid_predictions = grid.predict(x_test)
