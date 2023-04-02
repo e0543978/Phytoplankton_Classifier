@@ -23,6 +23,6 @@ We need to convert our input data into shape (n_samples, n_features) for KNN and
 #### Improved Models - CNN
 
 The images in the data set will be converted to floating point tensors for feeding to CNN. The process is as follows:
-Read and decode the images to RGB grids of pixels with channels
-Convert these to floating point tensors for input to neural nets
-Rescale pixel values to the interval [0, 1] for efficiency 
+1. Read and decode the images to RGB grids of pixels with channels
+2. Convert these to floating point tensors for input to neural nets
+3. Rescale pixel values to the interval [0, 1] for efficiency 
