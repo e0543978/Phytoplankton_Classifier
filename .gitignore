@@ -1,3 +1,5 @@
 vgg
 Processed_Split
 freeze_vgg
+freeze_resnet
+resnet
