@@ -1,0 +1,8 @@
+vgg
+Processed_Split
+freeze_vgg
+freeze_resnet
+resnet
+vgg1
+freeze_vgg1
+*.zip
